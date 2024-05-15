@@ -1,10 +1,11 @@
 # Red-Vs-Blue-Project-
-Red and Blue team exercise project done for the University of California Davis in collaboration with 2u/Edx
-This repository consists of documentation, personal notes, and resources used for the Red Vs Blue Project created, supervised, and supported by the University of California Davis in collaboration with 2u/Edx bootcamps. 
-This project was completed in the early summer of 2020.
-The emails, virtual machines, and credentials used for this project were all provided by UC Davis and 2u Edx to take advantage of the free runtime credits for new accounts made in Microsoft Azure Cloud. 
-All virtual machines, virtual networks, and resource groups used in this project are now decomissioned in order to prevent real monetary charges to leak out of using Microsoft's PaaS (Azure Cloud) during the time the course requiring this project was being taken. 
-Some screenshots of terminals and Azure UI may be missing or outdated due to signiificant changes made since the time of completion 
+- Red and Blue team exercise project done for the University of California Davis in collaboration with 2u/Edx
+- This repository consists of documentation, personal notes, and resources used for the Red Vs Blue Project created, supervised, and supported by the University of California Davis in collaboration with 2u/Edx bootcamps. 
+- This project was completed in the early summer of 2020.
+- The emails, virtual machines, and credentials used for this project were all provided by UC Davis and 2u Edx to take advantage of the free runtime credits for new accounts made in Microsoft Azure Cloud. 
+- All virtual machines, virtual networks, and resource groups used in this project are now decomissioned in order to prevent real monetary charges to leak out of using Microsoft's PaaS (Azure Cloud) during the time - the course requiring this project was being taken. 
+- Some screenshots of terminals and Azure UI may be missing outdated, or pulled from instructional material due to signiificant changes made since the time of completion.
+- Screenshots pulled from instructional material will be marked with a "*"
 
 OBJECTIVES 
 1. Utilize Azure Cloud services to create a resource group consisting of two interconnected virtual networks hosting 4 virtual machines in total 
@@ -24,7 +25,7 @@ Configurations are also made to allow open communication between the vnet contai
 - Use a YAML script to setup the BlueBox Elk-Stack host. 
 Verify the Capstone Metasploitable's DVWA is available 
 
-3. Setup Filebeat and Metric Beat using YAML (ansible playbooks) on the Capstone and RedBox configuring them to send data to the Elk-Stack host.
+3. Setup Filebeat and Metric Beat using YAML (ansible playbooks) on the Capstone and its DVWA configuring them to send data to the Elk-Stack host.
 
 4. Verify the functionality of Kibana by plugging in sample log data.
 
